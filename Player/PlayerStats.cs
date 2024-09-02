@@ -7,7 +7,7 @@ public class PlayerStats : MonoBehaviour
     CharacterScriptableObject characterData;
 
     //current stats
-    [SerializeField]
+    [HideInInspector]
     public float currentHealth;
     [HideInInspector]
     public float currentRecovery;
